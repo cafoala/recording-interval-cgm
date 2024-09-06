@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "recording-interval-analysis"
+version = "0.1.0"
+description = ""
+authors = ["cafoala <catherine.russon@gmail.com>"]
+license = "GLP-3.0"
+readme = "README.md"
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "*"
+numpy = "*"
+matplotlib = "*"
+scikit-learn = "*" 
+scipy = "*"
+seaborn = "*"
+shap = "*"
+diametrics = "*"
+ipykernel = "*"
+statsmodels = "*"
+forestplot = "^0.4.0"
+pycompare = "^1.5.4"
+pingouin = "^0.5.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
